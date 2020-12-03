@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <link rel="icon" type="image/icon" href="../image/logo2.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+
+</head>
+<body>
+
+  <header>
+    <div class="humbtn"><!-- ハンバーガーボタン -->
+        <span class="hum-bar top"></span>
+        <span class="hum-bar mid"></span>
+        <span class="hum-bar bot"></span>
+    </div><!-- .humbtn -->
+
+    <nav id="menu">
+      <ul>
+        <li><a href="intro.html">自己紹介</a></li>
+        <li class="work-li"><a href="work.html">作品(模写)</a>
+          <ul id="sub-menu">
+            <li><a href="copy1.html">模写作品1</a></li>
+            <li><a href="copy2.html">模写作品2</a></li>
+            <li><a href="copy3.html">模写作品3</a></li>
+            <li><a href="copy4.html">模写作品4</a></li>
+          </ul>
+        </li>
+        <li><a href="#">none</a></li>
+        <li><a href="#">none</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1><a href="index.html"><img src="./image/logo2.png" alt=""></a></h1>
+
+  <div id="wrapper" class="flex">
+
+    <div id="left-container">
+      <div id="left-element">
+        <div id="left-text">
+          <p>模写作品(詳細)</p>
+        </div><!-- #left-text -->
+      </div><!-- #left-element -->
+    </div><!-- #left-container-->
+
+    <div id="main-content">
+
+      <div class="copy">
+        <p>2020/10</p>
+        <p>制作時間 8時間</p>
+        <p>基礎学習後、練習と実践を兼ねて模写してサイトを制作</p>
+        <p>・HTML/CSS コーディング</p>
+        <p>参考サイト<a href="https://jin-demo.jp/demo-4/" style="color: #337ab7;text-decoration: underline;">JINのテーマ</a>
+        </p>
+
+        <a href="../image/JIN模写制作.jpg" class="btn">模写作品を見る（画像）</a>
+        <a href="../image/JIN模写制作.jpg"><img src="../image/JIN模写制作.jpg" alt=""></a>
+      </div><!-- .copy -->
+
+      
+      <div class="other">
+        <p class="text otext">他の模写作品</p>
+        <div class="work">
+          <a href="copy1.html">
+            <p class="title">模写作品1</p>
+            <img src="../image/模写制作1.jpg" alt="" class="rep">
+            <p>・制作時間　4時間</p>
+          </a>
+        </div><!-- .work -->
+        <div class="work">
+          <a href="copy2.html">
+            <p class="title">模写作品2</p>
+            <img src="../image/top2.png" alt="" class="rep">
+            <p>制作時間　10時間</p>
+          </a>
+        </div><!-- .work -->
+        <div class="work">
+          <a href="copy4.html">
+            <p class="title">模写作品4</p>
+            <img src="../image/top4.png" alt="" class="rep">
+            <p>制作時間　20時間</p>
+          </a>
+        </div><!-- .work -->
+      </div><!-- .other-->
+    </div><!-- #main-content -->
+      
+    </div><!-- #wrapper .flex -->
+    
+  <footer>
+    <p>&copy;2020</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
