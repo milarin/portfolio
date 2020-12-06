@@ -1,5 +1,5 @@
 $(function() {
- $('.humbtn').click(function() {
+ $('.humberger-btn').click(function() {
 	 $(this).toggleClass('active');
 
 	 if($(this).hasClass('active')) {

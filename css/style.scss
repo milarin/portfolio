@@ -194,10 +194,10 @@ footer {
   footer {
     padding: 0 4%;
   }
-  .mainV {
+  .main-value {
     width: 100vw;
   } 
-  .humbtn {
+  .humberger-btn {
     display: block;
     position: fixed;
     z-index: 20;
@@ -226,22 +226,22 @@ footer {
       top: 30px;
     }
   }
-  .humbtn.active {
+  .humberger-btn.active {
     transition: all 0.3s;
     transition-delay: 0.6s;
     transform: rotate(45deg);
   }
-  .humbtn.active .mid {
+  .humberger-btn.active .mid {
     width: 0px;
   }
-  .humbtn.active .top,
-  .humbtn.active .mid  {
+  .humberger-btn.active .top,
+  .humberger-btn.active .mid  {
     transition-delay: 0.3s;
   }
-  .humbtn.active .top {
+  .humberger-btn.active .top {
     transform: translateY(4px);
   }
-  .humbtn.active .bot {
+  .humberger-btn.active .bot {
     transform: translateY(-16px) rotate(90deg);
   }
 #menu {
